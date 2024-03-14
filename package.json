@@ -1,0 +1,19 @@
+{
+  "name": "scrapping-mutualfunds-save-googlespreadsheet",
+  "version": "1.0.0",
+  "description": "Scraps data of particular funds for e.g almeezan funds from mufap.com every day through cron jobs, and performs processing, to make it suitable to draw different insights and to make projections from data, and eventually save it in google spreadsheet.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^134.0.0",
+    "puppeteer": "^22.4.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
